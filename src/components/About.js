@@ -1,5 +1,3 @@
-// Recent Photo or Avatar
-// Short Biography
 import React from "react";
 
 function About() {
