@@ -54,28 +54,8 @@ THEN I receive a notification if I have entered an invalid email address
 WHEN I am presented with the Resume section
 THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
 WHEN I view the footer
-THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
+THEN I am presented with text or icon links to the developer’s GitHub.
 ```
-
-## Mock-Up
-
-The following animation shows the web application's appearance and functionality:
-
-![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./Assets/20-react-homework-demo-01.gif)
-
-## Getting Started
-
-You’ll use `vite` to build your portfolio, which will include the following:
-
-* A single `Header` component that appears on multiple pages
-
-* A single `Navigation` component within the header that will use `Link` components from `react-router-dom` to conditionally render the different sections of your portfolio
-
-* A single `Project` component that will be used multiple times in the Portfolio section
-
-* A single `Footer` component that appears on multiple pages
-
-**Note**: Because this application doesn’t include a back end or connect to an API, the contact form doesn't need to save this information right now. You'll add back-end functionality in the next few weeks. In the meantime, consider including your email address and phone number on the Contact page.
 
 ### When you would like to scaffold a new `vite` application on your own, follow these steps
 
